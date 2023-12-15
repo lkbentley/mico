@@ -8,8 +8,8 @@ sites <- read_csv("Data/site_details_multiple-species V1.csv",
                   col_types = cols(Ver. = col_character()))
 sites%>%select(ReviewID) %>%unique() %>% count()
 
-species <- read_csv("species.csv")
-groups <- read_csv("groups_UN.csv")
+species <- read_csv("Data/species.csv")
+groups <- read_csv("Data/groups_UN.csv")
 regions <- c("Northern_America", "Central_America", "Caribbean", "South_America",
              "Southern_Africa", "Middle_Africa", "Western_Africa", "Northern_Africa", "Eastern_Africa",
              "Southern_Europe", "Western_Europe", "Northern_Europe", "Eastern_Europe",
