@@ -1,0 +1,24 @@
+code,description,LS_Simple
+A,Adult,Non-breeding Adult
+AB,Adult Breeding,Breeding Adult
+ABG,Adult Brood-guard,Breeding Adult
+ABG-BG,Adult Brood-guard,Breeding Adult
+ABG-CB,Adult Chick-brood,Breeding Adult
+ABG-CG,Adult Chick-guard,Breeding Adult
+ACR,Adult Chick-rear,Breeding Adult
+AI,Adult internesting,Breeding Adult
+AIN,Adult Incubation,Breeding Adult
+APG,Adult Post-guard,Breeding Adult
+AS,Adult Sabbatical,Non-breeding Adult
+AS-PB,Adult Post-breeding,Non-breeding Adult
+AS-S,Adult Sabbatical,Non-breeding Adult
+C,Chick,Juvenile
+CA,Calf,Juvenile
+COY,Cub of the year,Juvenile
+I,Immature,Juvenile
+J,Juvenile,Juvenile
+NB,Newborn,Juvenile
+NH,Neonate/post-hatching,Juvenile
+SUB,Subadult,Juvenile
+UNK,Unknown,Unknown
+YL,Yearling,Juvenile

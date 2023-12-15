@@ -1,0 +1,220 @@
+value,group,country
+Australia,Australia_NZ,Australia
+New_Zealand,Australia_NZ,New Zealand
+Norfolk_Island,Australia_NZ,Australia
+Heard_and_McDonald_Islands,Antarctica,Australia
+Antarctica,Antarctica,Antarctica
+Macquarie_Island,Australia_NZ,Australia
+Christmas_Island,Australia_NZ,Australia
+Cocos_Islands,Australia_NZ,Australia
+Cuba,Caribbean,Cuba
+Bahamas,Caribbean,Bahamas
+Serrana_Bank,Caribbean,Colombia
+Quitasueño_Bank,Caribbean,Colombia
+Serranilla_Bank,Caribbean,Colombia
+Saint_Kitts_and_Nevis,Caribbean,Saint Kitts and Nevis
+Jamaica,Caribbean,Jamaica
+Curaçao,Caribbean,Curacao
+Bonaire,Caribbean,Netherlands
+Bajo_Nuevo_Bank,Caribbean,Disputed
+Saint_Vincent_and_the_Grenadines,Caribbean,Saint Vincent and the Grenadines
+Martinique,Caribbean,France
+Haiti,Caribbean,Haiti
+Trinidad_and_Tobago,Caribbean,Trinidad and Tobago
+Sint-Maarten,Caribbean,Sint Maarten
+Saint_Lucia,Caribbean,Saint Lucia
+Sint-Eustatius,Caribbean,Netherlands
+Saint-Barthélemy,Caribbean,France
+Puerto_Rico,Caribbean,United States
+Montserrat,Caribbean,United Kingdom
+Guadeloupe,Caribbean,France
+Grenada,Caribbean,Grenada
+Dominican_Republic,Caribbean,Dominican Republic
+Antigua_and_Barbuda,Caribbean,Antigua and Barbuda
+Dominica,Caribbean,Dominica
+Barbados,Caribbean,Barbados
+Aruba,Caribbean,Aruba
+Honduras,Central_America,Honduras
+Nicaragua,Central_America,Nicaragua
+Belize,Central_America,Belize
+Guatemala,Central_America,Guatemala
+Mexico,Central_America,Mexico
+Costa_Rica,Central_America,CostaRica
+Panama,Central_America,Panama
+El_Salvador,Central_America,El Salvador
+Bassas_da_India,Eastern_Africa,France
+Juan_de_Nova_Island,Eastern_Africa,France
+Europa_Island,Eastern_Africa,France
+Tanzania,Eastern_Africa,Tanzania
+Kenya,Eastern_Africa,Kenya
+Mozambique,Eastern_Africa,Mozambique
+Madagascar,Eastern_Africa,Madagascar
+Comores,Eastern_Africa,Comores
+Federal_Republic_of_Somalia,Eastern_Africa,Somalia
+Seychelles,Eastern_Africa,Seychelles
+Republic_of_Mauritius,Eastern_Africa,Mauritius
+Eritrea,Eastern_Africa,Eritrea
+Djibouti,Eastern_Africa,Djibouti
+China,Eastern_Asia,China
+North_Korea,Eastern_Asia,North Korea
+Taiwan,Eastern_Asia,Taiwan
+South_Korea,Eastern_Asia,South Korea
+Japan,Eastern_Asia,Japan
+Russia,Eastern_Europe,Russia
+Vanuatu,Melanesia,Vanuatu
+New_Caledonia,Melanesia,France
+Papua_New_Guinea,Melanesia,Papua New Guinea
+Fiji,Melanesia,Fiji
+Solomon_Islands,Melanesia,Solomon Islands
+Gilbert_Islands,Micronesia,Kiribati
+Nauru,Micronesia,Nauru
+Palau,Micronesia,Palau
+Micronesia,Micronesia,Micronesia
+Marshall_Islands,Micronesia,Marshall Islands
+Line_Group,Micronesia,Disputed
+Cameroon,Middle_Africa,Cameroon
+Equatorial_Guinea,Middle_Africa,Equatorial Guinea
+Sao_Tome_and_Principe,Middle_Africa,S�o Tom� and Pr�ncipe
+Gabon,Middle_Africa,Gabon
+Angola,Middle_Africa,Angola
+Republic_of_the_Congo,Middle_Africa,Republic of the Congo
+Democratic_Republic_of_the_Congo,Middle_Africa,Democratic Republic of the Congo
+Morocco,Northern_Africa,Morocco
+Tunisia,Northern_Africa,Tunisia
+Libya,Northern_Africa,Libya
+Egypt,Northern_Africa,United States
+Algeria,Northern_Africa,Algeria
+Sudan,Northern_Africa,Sudan
+United_States,Northern_America,United States
+Hawaii,Northern_America,United States
+Alaska,Northern_America,United States
+Canada,Northern_America,Canada
+Wake_Island,Northern_America,Disputed
+Greenland,Northern_America,Denmark
+United_States_Virgin_Islands,Northern_America,United States
+Johnston_Atoll,Northern_America,United States
+Palmyra_Atoll,Northern_America,United States
+Ascension,Middle_Africa,United Kingdom
+Turks_and_Caicos_Islands,Caribbean,United Kingdom
+Cayman_Islands,Caribbean,United Kingdom
+Bermuda,Caribbean,United Kingdom
+Ireland,Northern_Europe,Ireland
+Saint-Pierre_and_Miquelon,Northern_America,France
+Collectivity_of_Saint_Martin,Caribbean,France
+Anguilla,Caribbean,United Kingdom
+British_Virgin_Islands,Caribbean,United Kingdom
+United_Kingdom,Northern_Europe,United Kingdom
+Jan_Mayen,Northern_Europe,Norway
+Iceland,Northern_Europe,Iceland
+Faeroe,Northern_Europe,Denmark
+Kerguélen,Antarctica,France
+Amsterdam_and_Saint_Paul_Islands,Antarctica,France
+Crozet_Islands,Antarctica,France
+Bouvet,Antarctica,Norway
+Clipperton_Island,Central_America,France
+Svalbard,Northern_Europe,Norway
+Norway,Northern_Europe,Norway
+Tristan_da_Cunha,Southern_Africa,United Kingdom
+Denmark,Northern_Europe,Denmark
+Latvia,Northern_Europe,Latvia
+Sweden,Northern_Europe,Sweden
+Finland,Northern_Europe,Finland
+Estonia,Northern_Europe,Estonia
+Jersey,Northern_Europe,Jersey
+Guernsey,Northern_Europe,Guernsey
+Pitcairn,Polynesia,United Kingdom
+Saint_Helena,Southern_Africa,United Kingdom
+American_Samoa,Polynesia,United States
+Tokelau,Polynesia,New Zealand
+Tonga,Polynesia,Tonga
+Samoa,Polynesia,Samoa
+Niue,Polynesia,Niue
+Cook_Islands,Polynesia,Cook Islands
+Wallis_and_Futuna,Polynesia,France
+Tuvalu,Polynesia,Tuvalu
+French_Polynesia,Polynesia,France
+Philippines,SE_Asia,Philippines
+Myanmar,SE_Asia,Myanmar
+Indonesia,SE_Asia,Indonesia
+Malaysia,SE_Asia,Malaysia
+Thailand,SE_Asia,Thailand
+East_Timor,SE_Asia,East Timor
+Oecusse,SE_Asia,East Timor
+Brunei,SE_Asia,Brunei
+Vietnam,SE_Asia,Vietnam
+Singapore,SE_Asia,Singapore
+Cambodia,SE_Asia,Cambodia
+Venezuela,South_America,Venezuela
+Peru,South_America,Peru
+Chile,South_America,Chile
+Uruguay,South_America,Uruguay
+Brazil,South_America,Brazil
+Colombia,South_America,Colombia
+Galapagos,South_America,Ecuador
+Suriname,South_America,Suriname
+Guyana,South_America,Guyana
+Argentina,South_America,Argentina
+Ecuador,South_America,Ecuador
+French_Guiana,South_America,France
+Trindade,South_America,Brazil
+Islas_San_Félix_and_San_Ambrosio,South_America,Chile
+Easter_Island,South_America,Chile
+South_Africa,Southern_Africa,South Africa
+Prince_Edward_Islands,Southern_Africa,South Africa
+Namibia,Southern_Africa,Namibia
+Pakistan,Southern_Asia,Pakistan
+India,Southern_Asia,India
+Sri_Lanka,Southern_Asia,Sri Lanka
+Andaman_and_Nicobar,Southern_Asia,India
+Bangladesh,Southern_Asia,Bangladesh
+Maldives,Southern_Asia,Maldives
+Slovenia,Southern_Europe,Slovenia
+Italy,Southern_Europe,Italy
+Croatia,Southern_Europe,Croatia
+Bosnia_and_Herzegovina,Southern_Europe,Bosnia and Herzegovina
+Albania,Southern_Europe,Albania
+Montenegro,Southern_Europe,Montenegro
+Greece,Southern_Europe,Greece
+Malta,Southern_Europe,Malta
+Madeira,Northern_Africa,Portugal
+Azores,Southern_Europe,Portugal
+Spain,Southern_Europe,Spain
+Portugal,Southern_Europe,Portugal
+Canary_Islands,Northern_Africa,Spain
+Guinea-Bissau,Western_Africa,Guinea-Bissau
+Senegal,Western_Africa,Senegal
+Mauritania,Western_Africa,Mauritania
+Gambia,Western_Africa,Gambia
+Cape_Verde,Western_Africa,Cape Verde
+Nigeria,Western_Africa,Nigeria
+Guinea,Western_Africa,Guinea
+Ivory_Coast,Western_Africa,Ivory Coast
+Liberia,Western_Africa,Liberia
+Sierra_Leone,Western_Africa,Sierra Leone
+Ghana,Western_Africa,Ghana
+Benin,Western_Africa,Benin
+Togo,Western_Africa,Togo
+Israel,Western_Asia,Israel
+Palestine,Western_Asia,Palestine
+Turkey,Western_Asia,Turkey
+Syria,Western_Asia,Syria
+Lebanon,Western_Asia,Lebanon
+Yemen,Western_Asia,Yemen
+Qatar,Western_Asia,Qatar
+Cyprus,Western_Asia,Cyprus
+United_Arab_Emirates,Western_Asia,United Arab Emirates
+Saudi_Arabia,Western_Asia,Saudi Arabia
+Oman,Western_Asia,Oman
+Bahrain,Western_Asia,Bahrain
+Iran,Western_Asia,Iran
+Jordan,Western_Asia,Jordan
+Monaco,Western_Europe,Monaco
+Réunion,Eastern_Africa,France
+France,Western_Europe,France
+Saba,Western_Europe,Netherlands
+Germany,Western_Europe,Germany
+Netherlands,Western_Europe,Netherlands
+Belgium,Western_Europe,Belgium
+ABNJ,ABNJ,ABNJ
+Guam,Micronesia,United States
+Northern_Mariana_Islands,Micronesia,United States
