@@ -1,5 +1,7 @@
 #### Figures for age, sex, life stage, observations and years of data ####
 
+#### THIS SCRIPT CREATES FIGURE 4 AND SUPP. TABLE 1 ####
+
 ### load packages ###
 library(readr)
 library(tidyverse)
@@ -294,21 +296,23 @@ ggplot(filter(unique(select(site_demographics_iucn, common_name, taxon, IUCN))),
 
 ## plots for paper
 
-paper_plotS <- ggplot(site_demographics_sex, aes(x=taxon, y = N_Indiv, fill = Sex)) +
+paper_plotS <- ggplot(site_demographics_sex, aes(x=taxon, y = N_Indiv, fill = Sex, colour = Sex)) +
   geom_col(position = "stack") +
   # geom_text_repel(data = site_demographics_sexSUM, aes(label = scales::comma(N_Indiv)),direction = "y", position = position_stack(vjust=0.5)) +
   scale_y_continuous(label=comma, name = "Number of Individuals") +
   scale_x_discrete("Taxonomic Group") +
   scale_fill_manual(values = sx_colours) +
+  scale_colour_manual(values = sx_colours) +
   theme_bw(base_size = 14) +
   theme(legend.position = c(0.75,0.75)) 
 
-paper_plotLS <- ggplot(site_demographics_lifestage, aes(x=taxon, y = N_Indiv, fill = LS_Simple)) +
+paper_plotLS <- ggplot(site_demographics_lifestage, aes(x=taxon, y = N_Indiv, fill = LS_Simple, colour = LS_Simple)) +
   geom_col(position = "stack") +  
   #geom_text_repel(data = site_demographics_lifestageSUM, aes(label = scales::comma(N_Indiv)), direction="y", position = position_stack(vjust = 0.5)) +
   scale_y_continuous(label=comma, name = "Number of Individuals") +
   scale_x_discrete("Taxonomic Group") +
   scale_fill_manual(values = ls_colours, name = "Life Stage") +
+  scale_colour_manual(values = ls_colours, name = "Life Stage") +
   theme_bw(base_size = 14) +
   theme(legend.position = c(0.75,0.75)) 
 
@@ -317,6 +321,11 @@ paper_plotLS <- ggplot(site_demographics_lifestage, aes(x=taxon, y = N_Indiv, fi
 
 paper_plotS + paper_plotLS + plot_annotation(tag_levels = "A")
 
+test_plot <- paper_plotS + paper_plotLS + plot_annotation(tag_levels = "A")
+### FIGURE 4####
+ggsave("bar_plot.pdf", plot = test_plot, width = 810/72, height = 450/72, units = "in", device = "pdf")
+
+#### SUPPLEMENTARY TABLE 1 ####
 ### supp table of species in these plots
 #site_demographics_lifestage %>%
 #  select(taxon, species_code, common_name) %>%

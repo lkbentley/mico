@@ -1,5 +1,7 @@
 ###### Figures for Map Figure in MiCO Paper #####
 
+#### THIS SCRIPT CREATES FIGURE 3 ####
+
 #### Load Libraries ####
 library(readr)
 library(tidyverse)

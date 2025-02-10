@@ -1,5 +1,7 @@
 ###### Data Exploration and Preliminary Visualisations ######
 
+#### THIS SCRIPT CREATES THE CHORD DIAGRAMS ASSEMBLED INTO FIGURE 2 ####
+
 ### Load Libraries
 library(readr)
 library(tidyverse)

@@ -16,6 +16,34 @@ regions <- c("Northern_America", "Central_America", "Caribbean", "South_America"
              "Western_Asia", "Central_Asia", "Southern_Asia", "Eastern_Asia", "SE_Asia",
              "Melanesia", "Micronesia", "Polynesia", "Australia_NZ", "Antarctica", "ABNJ")
 
+linkcol <- c(
+  Northern_America = "#f7fcb9",
+  Central_America = "#78c679",
+  Caribbean = "#d9f0a3",
+  South_America = "#238443",
+  Southern_Africa = "#67000d",
+  Middle_Africa = "#a50f15",
+  Western_Africa = "#d7301f",
+  Northern_Africa = "#ef6548",
+  Eastern_Africa = "#fc8d59",
+  Southern_Europe = "#7fa8c1",
+  Western_Europe = "#557b9e",
+  Northern_Europe = "#2f4b7c",
+  Eastern_Europe = "#003f5c",
+  Western_Asia = "#FFDAB9",
+  Central_Asia = "#FFD700",
+  Southern_Asia = "#FFA500",
+  Eastern_Asia = "#FF8C00",
+  SE_Asia = "#FF4500",
+  Melanesia = "#54278f",
+  Micronesia = "#756bb1",
+  Polynesia =  "#9e9ac8",
+  Australia_NZ = "#cbc9e2",
+  Antarctica = "#702963",
+  ABNJ = "grey50"
+)
+
+
 ALLroutesconnections <- read_csv("Data/mico_metasites_crossing_oceans_all.csv")
 
 ALLroutesconnections <- ALLroutesconnections %>% 
@@ -90,7 +118,7 @@ unique_pairs_df <- unique_pairs_df %>%
 # the number of connections a country has will be the number of times it appears in the list -1
 all_countries <- c(unique_pairs_df$col1, unique_pairs_df$col2)
 
-# Count the occurrences of each letter
+# Count the occurrences of each country
 country_counts <- table(all_countries)
 
 # Convert the counts to a data frame
@@ -101,4 +129,4 @@ print(country_counts_df)
 
 # average number of connections?
 country_counts_df %>%
-  summarise(n=mean(count), sd=sd(count))
+  summarise(mean_countries=mean(count), sd=sd(count), median_countries=median(count))
