@@ -9,11 +9,12 @@ library(ggbreak)
 library(scales)
 library(ggOceanMaps)
 library(ggExtra)
+library(rnaturalearth)
 
 
 #### Extra data and colours ####
-species <- read_csv("species.csv")
-groups <- read_csv("groups_UN.csv")
+species <- read_csv("Data/species.csv")
+groups <- read_csv("Data/groups_UN.csv")
 regions <- c("Northern_America", "Central_America", "Caribbean", "South_America",
              "Southern_Africa", "Middle_Africa", "Western_Africa", "Northern_Africa", "Eastern_Africa",
              "Southern_Europe", "Western_Europe", "Northern_Europe", "Eastern_Europe",
@@ -98,9 +99,15 @@ taxon_coloursdark <- c("Seabirds" = "#FF7F0E",
                        "Marine Mammals" = "#D62728",
                        "Sea Turtles" = "#2CA02C")
 
-globalmetas<- basemap(all_nodes,
+land <- ne_download(scale = "medium", 
+                    type = "land", 
+                    category = "physical",
+                    returnclass = "sf")
+
+globalmetas<- ggplot(land,
         grid.col = NA,
         land.col = "grey80") +
+  geom_sf(fill = "grey90", color = "black")+
   geom_point(data = all_nodes, 
              aes(x = longitude, y = latitude, color=Taxon),
              size=.8)+
