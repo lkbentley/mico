@@ -7,7 +7,6 @@ library(readr)
 library(tidyverse)
 library(ggbreak)
 library(scales)
-library(ggOceanMaps)
 library(ggExtra)
 library(rnaturalearth)
 
